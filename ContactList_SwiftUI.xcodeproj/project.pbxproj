@@ -11,6 +11,11 @@
 		CED74CDD2807FFC300EA5F72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74CDC2807FFC300EA5F72 /* ContentView.swift */; };
 		CED74CDF2807FFC700EA5F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED74CDE2807FFC700EA5F72 /* Assets.xcassets */; };
 		CED74CE22807FFC700EA5F72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED74CE12807FFC700EA5F72 /* Preview Assets.xcassets */; };
+		CED74CE92808004700EA5F72 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74CE82808004700EA5F72 /* DataManager.swift */; };
+		CED74CEB2808006100EA5F72 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74CEA2808006100EA5F72 /* Person.swift */; };
+		CED74CED2808049000EA5F72 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74CEC2808049000EA5F72 /* ContactList.swift */; };
+		CED74CEF280806AA00EA5F72 /* DetailList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74CEE280806AA00EA5F72 /* DetailList.swift */; };
+		CED74CF128085A8E00EA5F72 /* UserContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74CF028085A8E00EA5F72 /* UserContact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		CED74CDC2807FFC300EA5F72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CED74CDE2807FFC700EA5F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED74CE12807FFC700EA5F72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CED74CE82808004700EA5F72 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		CED74CEA2808006100EA5F72 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CED74CEC2808049000EA5F72 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		CED74CEE280806AA00EA5F72 /* DetailList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailList.swift; sourceTree = "<group>"; };
+		CED74CF028085A8E00EA5F72 /* UserContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				CED74CDA2807FFC300EA5F72 /* ContactList_SwiftUIApp.swift */,
 				CED74CDC2807FFC300EA5F72 /* ContentView.swift */,
+				CED74CEC2808049000EA5F72 /* ContactList.swift */,
+				CED74CEE280806AA00EA5F72 /* DetailList.swift */,
+				CED74CF028085A8E00EA5F72 /* UserContact.swift */,
+				CED74CEA2808006100EA5F72 /* Person.swift */,
+				CED74CE82808004700EA5F72 /* DataManager.swift */,
 				CED74CDE2807FFC700EA5F72 /* Assets.xcassets */,
 				CED74CE02807FFC700EA5F72 /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED74CEF280806AA00EA5F72 /* DetailList.swift in Sources */,
+				CED74CEB2808006100EA5F72 /* Person.swift in Sources */,
+				CED74CE92808004700EA5F72 /* DataManager.swift in Sources */,
 				CED74CDD2807FFC300EA5F72 /* ContentView.swift in Sources */,
+				CED74CF128085A8E00EA5F72 /* UserContact.swift in Sources */,
 				CED74CDB2807FFC300EA5F72 /* ContactList_SwiftUIApp.swift in Sources */,
+				CED74CED2808049000EA5F72 /* ContactList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

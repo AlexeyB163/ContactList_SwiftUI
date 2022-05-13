@@ -2,7 +2,7 @@
 //  ContactList_SwiftUIApp.swift
 //  ContactList_SwiftUI
 //
-//  Created by User on 14.04.2022.
+//  Created by Person on 14.04.2022.
 //
 
 import SwiftUI
